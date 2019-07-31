@@ -15,6 +15,7 @@ class Index extends Common{
         $this->cateModel=model('Category');
     }
 
+
     public function index(){
         config('name','123');
         return $this->fetch();
